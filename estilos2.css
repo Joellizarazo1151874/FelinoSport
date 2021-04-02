@@ -1,5 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
 body{
     font-family: arial, helvetica, sans-serif;
+    background: #fffffA;
+}
+
+//INICIO MENU//
+
+.menu{
+    width: 100%;
+}
+
+header nav{
+    width: 100%;
+    max-width: 100%;
+    margin: auto auto;
+    background: green;
+}
+
+.menu_bar{
+    display: none;
 }
 
 .body{
@@ -9,33 +32,77 @@ body{
     padding-right: 15px;
 }
 
-.pacifico{
-    font-family: 'pacifico', cursive;
+header nav ul{
+    overflow: hidden;
+    list-style: none;
 }
 
-.main-header{
-    background-color: green;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 4px;
+header nav ul li{
+    float: left;
 }
 
-.main-nav a{
-    width: 33%;
-    display: inline-block;
+header nav ul li a{
+    color:#fff;
+    padding: 20px;
+    display: block;
     text-decoration: none;
 }
 
-.nav-titulo{
-    color: white;
-    font-size: 40px;
+header nav ul li span{
+    margin-right: 10px;
 }
 
-.nav-link{
-    color: white;
-    font-size: 20px;
+header nav ul li a:hover{
+    background: #4CAF50;
+}
+
+@media screen and (max-width: 800px){
+    header nav {
+        width: 80%;
+        height: 100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+
+    header nav ul li {
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+    .menu_bar{
+        display: block;
+        width: 100%;
+        background: #ccc;
+    }
+
+    .menu_bar .bt-menu {
+        display: block;
+        padding: 20px;
+        background: green;
+        color:#fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+
+    .menu_bar span{
+        float: right;
+        font-size: 40px;
+    }
+
+}
+
+//CIERRE MENU//
+
+
+//INICIO PRODUCTOS//
+
+.pacifico{
+    font-family: 'pacifico', cursive;
 }
 
 .text-center{
@@ -66,15 +133,10 @@ body{
 }
 
 .card{
+    padding-top: 20px;
     border-radius: 4px;
     background-color: white;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.card-conteiner{
-    border-radius: 4px;
-    background-color: white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    width: 1330px;
-}
-
+//CIERRE PRODUCTO//
