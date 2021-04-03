@@ -81,11 +81,16 @@ header nav ul li a:hover{
 
 @media screen and (max-width: 1300px){
     header nav {
-        width: 80%;
+        width: 60%;
         height: 100%;
         left: -100%;
         margin: 0;
         position: fixed;
+    }
+
+    .logo{
+    float:none;
+    font-size: 15px;
     }
 
     header nav ul li {
