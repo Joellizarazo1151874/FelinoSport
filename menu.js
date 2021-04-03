@@ -4,16 +4,16 @@ var contador = 1;
 
 function main(){
 	$('.menu_bar').click(function(){
-		if (contador == 1) {	
-			$('nav').animate({	
-				left:'0'
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
 			})
 			contador = 0;
-		}else{
+		} else {
 			contador = 1;
 			$('nav').animate({
-				left:'-100%'
-			})
+				left: '-100%'
+			});
 		}
 	});
-}
+};

@@ -81,7 +81,7 @@ header nav ul li a:hover{
 
 @media screen and (max-width: 1300px){
     header nav {
-        width: 60%;
+        width: 80%;
         height: 100%;
         left: -100%;
         margin: 0;
