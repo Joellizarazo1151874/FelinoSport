@@ -8,10 +8,20 @@ body{
     background: #fffffA;
 }
 
+.pacifico{
+    font-family: 'pacifico', cursive;
+}
+
 //INICIO MENU//
 
 .menu{
     width: 100%;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 header nav{
@@ -25,19 +35,13 @@ header nav{
     display: none;
 }
 
-.body{
-    padding-top: 15px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 a{
     text-decoration: none;
 }
 
 h1{
     color: white;
+    margin:;
 }
 
 h1:hover{
@@ -48,7 +52,6 @@ h1:hover{
     font-size: 25px;
     float: left;
     margin:5px;
-    margin-right: 33%;
     margin-left: 20px; 
 }
 
@@ -58,7 +61,7 @@ header nav ul{
 }
 
 header nav ul li{
-    float: left;
+    float: right;
 }
 
 header nav ul li a{
@@ -79,7 +82,7 @@ header nav ul li a:hover{
 
 
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 900px){
     header nav {
         width: 80%;
         height: 100%;
@@ -129,9 +132,7 @@ header nav ul li a:hover{
 
 //INICIO PRODUCTOS//
 
-.pacifico{
-    font-family: 'pacifico', cursive;
-}
+
 
 .text-center{
     text-align: center;
@@ -140,6 +141,8 @@ header nav ul li a:hover{
 
 .text-green{
     color: green;
+    font-size: 30px;
+    padding-bottom: 1px;
 }
 
 .main-container{
@@ -159,12 +162,84 @@ header nav ul li a:hover{
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.card2{
+    padding-top: 80px;
+    border-radius: 4px;
+    background-color: white;
+}
 
 .card{
     padding-top: 20px;
     border-radius: 4px;
     background-color: white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 2px 4px 5px 5px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+.principal{
+    margin-top: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.treeD{
+    text-shadow: 1px 3px 0px #6b251d, 1px 8px 3px rgb(171,168,168);
+}
+
+.delay-0{
+    animation-delay: 1s;
+    position: relative;
+    z-index: 1;
+}
+
+.delay-1{
+    animation-delay: 0.1s;
+    position: relative;
+    z-index: 10;
+}
+.delay-2{
+    animation-delay: 0.2s;
+    position: relative;
+    z-index: 9;
+}
+.delay-3{
+    animation-delay: 0.3s;
+    position: relative;
+    z-index: 8;
+}
+.delay-4{
+    animation-delay: 0.4s;
+    position: relative;
+    z-index: 7;
+}
+.delay-5{
+    animation-delay: 0.5s;
+    position: relative;
+    z-index: 6;
+}
+.delay-6{
+    animation-delay: 0.6s;
+    position: relative;
+    z-index: 5;
+}
+.delay-7{
+    animation-delay: 0.7s;
+    position: relative;
+    z-index: 4;
+}
+.delay-8{
+    animation-delay: 0.8s;
+    position: relative;
+    z-index: 3;
+}
+.delay-9{
+    animation-delay: 0.9s;
+    position: relative;
+    z-index: 2;
+}
+.delay-10{
+    animation-delay: 1s;
+    position: relative;
+    z-index: 1;
+}
+
 
 //CIERRE PRODUCTO//
