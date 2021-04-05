@@ -167,14 +167,9 @@ header nav ul li a:hover{
 }
 
 .product img{
-    width: 330px;
+    width: 85%;
     margin-top: 50px;
     margin-bottom: 20px;
-}
-@media screen and (max-width: 900px){
-    .product img{
-    width: 200px;
-    }
 }
 
 .product img:hover{
