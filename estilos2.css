@@ -339,4 +339,19 @@ footer {
     float: left;
 }
 
+@media screen and (max-width: 500px){
+    .container-fluid{
+    padding-bottom: 60px;
+    }
+    .colombia{
+    float: none;
+    }
+
+    .strong {    
+    float: left;
+    margin-right: 20px;
+    }
+
+}
+
 //PIE DE PAGINA//
