@@ -45,7 +45,6 @@ a{
 
 h1{
     color: white;
-    margin:;
 }
 
 h1:hover{
@@ -293,5 +292,51 @@ header nav ul li a:hover{
     z-index: 1;
 }
 
-
 //CIERRE PRODUCTO//
+
+//PIE DE PAGINA//
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 0px;
+}
+footer {
+  margin-top: 30px;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+.container-fluid{
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background: green;
+
+}
+
+.container-fluid img{
+    width: 30px;
+    float: right;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.container-fluid a{
+    position: relative;
+    color: #c8cbcc;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.colombia{
+    float: right;
+}
+
+.strong {    
+    float: left;
+}
+
+//PIE DE PAGINA//
